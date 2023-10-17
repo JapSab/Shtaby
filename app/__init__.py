@@ -7,6 +7,8 @@ app.config['MONGO_URI'] = 'mongodb://localhost:27017/ShtabyBase'
 mongo = PyMongo(app)
 app.template_folder = 'views/templates'
 app.static_folder = 'static'
+app.secret_key = '123'
 
 from app.controllers.userControllers import userController
+from app.controllers.homeController import homeController
 
