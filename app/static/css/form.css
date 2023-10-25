@@ -63,3 +63,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: #92210d; /* Darker shade of blue on hover */
 }
+
+.text-danger {
+  color: red;
+}
