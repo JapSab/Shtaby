@@ -1,4 +1,4 @@
-from flask import render_template, request, Flask, redirect, url_for, session
+from flask import render_template, request, redirect, url_for, session
 from app.classes.FormValidator import RegistrationForm, LoginForm
 from app import mongo
 import bcrypt

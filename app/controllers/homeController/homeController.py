@@ -1,4 +1,4 @@
-from flask import render_template, request, Flask, redirect, session
+from flask import  redirect, session
 from app import app
 
 @app.route('/home', methods=['GET'])
